@@ -101,6 +101,8 @@ HAVING (?nbfilms > 2)
 
 ```
 
+## Partie 3 : Mise à jour de la base de connaissances
+
 ```
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
