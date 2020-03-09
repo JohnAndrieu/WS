@@ -2,6 +2,8 @@
 
 ## Partie 2 : Interrogation de la base de connaissances sur le cinéma
 
+```
+
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX : <http://www.semanticweb.org/nathalie/ontologies/cinemaTP#>
@@ -14,6 +16,10 @@ WHERE {
   ?film :seDerouleA ?lieu .
   ?lieu :aPourGPS ?gps
 }
+
+```
+
+```
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -29,3 +35,5 @@ WHERE {
   ?lieu :aPourGPS ?gps
 }
 GROUP BY ?gps
+
+```
